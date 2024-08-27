@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EJEXoPHLQFVkH8qsIV/rg4NdBUUoqONONtahgJ24FNg=",
+  "Source": "DataServer",
+  "BasePath": "_content/DataServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

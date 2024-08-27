@@ -1,0 +1,17 @@
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\programm\GrpcTesting\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\programm\GrpcTesting\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\programm\GrpcTesting\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\programm\GrpcTesting\Repositories\bin\Debug\net8.0\Northwind.DataContext.dll
+D:\programm\GrpcTesting\Repositories\bin\Debug\net8.0\Northwind.EntityModels.dll
+D:\programm\GrpcTesting\Repositories\bin\Debug\net8.0\Northwind.DataContext.pdb
+D:\programm\GrpcTesting\Repositories\bin\Debug\net8.0\Northwind.EntityModels.pdb
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\ref\Repositories.dll

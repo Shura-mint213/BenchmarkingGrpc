@@ -1,0 +1,3 @@
+﻿
+using static System.Console;
+
