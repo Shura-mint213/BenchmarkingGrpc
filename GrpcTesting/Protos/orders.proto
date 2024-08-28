@@ -4,7 +4,7 @@ option csharp_namespace = "GrpcTesting";
 
 package orders;
 
-// The greeting service definition.
+// The Orders service definition.
 service Orders {
   // Sends a greeting
   rpc GetOrders (OrderRequest) returns (OrderReply);

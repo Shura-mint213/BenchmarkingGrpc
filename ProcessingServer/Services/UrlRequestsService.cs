@@ -41,13 +41,13 @@ namespace ProcessingServer.Services
 
             try
             {
-                using (GrpcChannel channel =
-                    GrpcChannel.ForAddress("https://localhost:5006"))
-                {
-                    Greeter.GreeterClient greeter = new(channel);
-                    HelloReply reply = await greeter.SayHelloAsync(new HelloRequest { Name = "Henrietta" });
-                    return "Greeting from gRPC service: " + reply.Message;
-                }
+                //using (GrpcChannel channel =
+                //    GrpcChannel.ForAddress("https://localhost:5006"))
+                //{
+                //    Greeter.GreeterClient greeter = new(channel);
+                //    HelloReply reply = await greeter.SayHelloAsync(new HelloRequest { Name = "Henrietta" });
+                //    return "Greeting from gRPC service: " + reply.Message;
+                //}
             }
             catch (Exception)
             {

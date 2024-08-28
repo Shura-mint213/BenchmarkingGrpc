@@ -36,7 +36,7 @@ namespace ProcessingServer.Controllers
         {
             try
             {
-                
+                throw new NotImplementedException();
             }
             catch (Exception ex)
             {

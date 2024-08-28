@@ -9,7 +9,7 @@ using grpc = global::Grpc.Core;
 
 namespace GrpcTesting {
   /// <summary>
-  /// The greeting service definition.
+  /// The Orders service definition.
   /// </summary>
   public static partial class Orders
   {

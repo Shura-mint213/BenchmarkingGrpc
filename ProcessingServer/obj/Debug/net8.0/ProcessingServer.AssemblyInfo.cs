@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProcessingServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ead6b5a68ed8909b2b0e9ccda4b330e6fda318d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcessingServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcessingServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
