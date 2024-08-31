@@ -8,9 +8,6 @@
 using grpc = global::Grpc.Core;
 
 namespace GrpcTesting {
-  /// <summary>
-  /// The Orders service definition.
-  /// </summary>
   public static partial class Orders
   {
     static readonly string __ServiceName = "orders.Orders";
@@ -49,17 +46,17 @@ namespace GrpcTesting {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcTesting.OrderRequest> __Marshaller_orders_OrderRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcTesting.OrderRequest.Parser));
+    static readonly grpc::Marshaller<global::GrpcTesting.OrdersRequest> __Marshaller_orders_OrdersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcTesting.OrdersRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcTesting.OrderReply> __Marshaller_orders_OrderReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcTesting.OrderReply.Parser));
+    static readonly grpc::Marshaller<global::GrpcTesting.OrdersReply> __Marshaller_orders_OrdersReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcTesting.OrdersReply.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::GrpcTesting.OrderRequest, global::GrpcTesting.OrderReply> __Method_GetOrders = new grpc::Method<global::GrpcTesting.OrderRequest, global::GrpcTesting.OrderReply>(
+    static readonly grpc::Method<global::GrpcTesting.OrdersRequest, global::GrpcTesting.OrdersReply> __Method_GetOrders = new grpc::Method<global::GrpcTesting.OrdersRequest, global::GrpcTesting.OrdersReply>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetOrders",
-        __Marshaller_orders_OrderRequest,
-        __Marshaller_orders_OrderReply);
+        __Marshaller_orders_OrdersRequest,
+        __Marshaller_orders_OrdersReply);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -71,14 +68,8 @@ namespace GrpcTesting {
     [grpc::BindServiceMethod(typeof(Orders), "BindService")]
     public abstract partial class OrdersBase
     {
-      /// <summary>
-      /// Sends a greeting
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::GrpcTesting.OrderReply> GetOrders(global::GrpcTesting.OrderRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::GrpcTesting.OrdersReply> GetOrders(global::GrpcTesting.OrdersRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -101,7 +92,7 @@ namespace GrpcTesting {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, OrdersBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_GetOrders, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcTesting.OrderRequest, global::GrpcTesting.OrderReply>(serviceImpl.GetOrders));
+      serviceBinder.AddMethod(__Method_GetOrders, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcTesting.OrdersRequest, global::GrpcTesting.OrdersReply>(serviceImpl.GetOrders));
     }
 
   }

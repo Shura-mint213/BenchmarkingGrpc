@@ -78,3 +78,4 @@ D:\programm\GrpcTesting\GrpcTesting\bin\Debug\net8.0\Northwind.DataContext.pdb
 D:\programm\GrpcTesting\GrpcTesting\bin\Debug\net8.0\Repositories.pdb
 D:\programm\GrpcTesting\GrpcTesting\bin\Debug\net8.0\Shared.pdb
 D:\programm\GrpcTesting\GrpcTesting\bin\Debug\net8.0\Northwind.EntityModels.pdb
+D:\programm\GrpcTesting\GrpcTesting\obj\Debug\net8.0\GrpcTesting.sourcelink.json

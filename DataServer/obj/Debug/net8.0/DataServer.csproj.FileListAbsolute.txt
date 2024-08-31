@@ -76,3 +76,4 @@ D:\programm\GrpcTesting\DataServer\obj\Debug\net8.0\refint\DataServer.dll
 D:\programm\GrpcTesting\DataServer\obj\Debug\net8.0\DataServer.pdb
 D:\programm\GrpcTesting\DataServer\obj\Debug\net8.0\DataServer.genruntimeconfig.cache
 D:\programm\GrpcTesting\DataServer\obj\Debug\net8.0\ref\DataServer.dll
+D:\programm\GrpcTesting\DataServer\obj\Debug\net8.0\DataServer.sourcelink.json

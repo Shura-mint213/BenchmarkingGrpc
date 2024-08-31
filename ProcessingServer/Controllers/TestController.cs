@@ -1,8 +1,11 @@
 ﻿using Grpc.Net.Client;
+using GrpcTesting;
+using GrpcTesting.Converters;
 using GrpcTestingClient;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Northwind.EntityModels;
+using ProcessingServer.Shared.Statics;
 
 namespace ProcessingServer.Controllers
 {
@@ -32,11 +35,18 @@ namespace ProcessingServer.Controllers
 
         [Route("getOrders")]
         [HttpGet]
-        public async Task<IActionResult> GetOrders()
+        public async Task<IEnumerable<Order>> GetOrders()
         {
             try
             {
-                throw new NotImplementedException();
+                using (GrpcChannel channel =
+                    GrpcChannel.ForAddress(SettingsHttpClients.GrpcTestingUrl))
+                {
+                    Orders.OrdersClient orders = new(channel);
+                    orders.GetOrders(new OrdersRequest());
+                    OrdersReply reply = await orders.GetOrdersAsync(new OrdersRequest());
+                    return reply.Orders.Select(order => order.ToOrderReplay());
+                }
             }
             catch (Exception ex)
             {

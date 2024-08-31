@@ -19,21 +19,24 @@ List<string> strings = new List<string>()
     "test 7"
 };
 
-WriteLine(JsonConvert.SerializeObject(strings).ToArray().Length);
+WriteLine($"start data: {JsonConvert.SerializeObject(strings).ToArray().Length} byte");
 
 var bytesB = await dataCompression.CompressAsync(strings, Shared.Enums.CompressionMethod.Brotli);
+WriteLine($"Brotli compress: {bytesB.Length} byte");
 
-WriteLine(bytesB.Length);
 var bytesGz = await dataCompression.CompressAsync(strings, Shared.Enums.CompressionMethod.GZip);
+WriteLine($"GZip compress: {bytesGz.Length} byte");
 
-WriteLine(bytesGz.Length);
-var result = await dataCompression.Decompress<List<string>>(bytesB, Shared.Enums.CompressionMethod.Brotli);
-WriteLine(JsonConvert.SerializeObject(result).ToArray().Length);
+var bytesD = await dataCompression.CompressAsync(strings, Shared.Enums.CompressionMethod.DeflateStream);
+WriteLine($"DeflateStream compress: {bytesD.Length} byte");
 
-var resultG = await dataCompression.Decompress<List<string>>(bytesGz, Shared.Enums.CompressionMethod.GZip);
+var result = await dataCompression.DecompressAsync<List<string>>(bytesB, Shared.Enums.CompressionMethod.Brotli);
+WriteLine($"Brotli decompress {JsonConvert.SerializeObject(result).ToArray().Length} byte");
+
+var resultG = await dataCompression.DecompressAsync<List<string>>(bytesGz, Shared.Enums.CompressionMethod.GZip);
 WriteLine(JsonConvert.SerializeObject(resultG).ToArray().Length);
+WriteLine($"GZip decompress {JsonConvert.SerializeObject(resultG).ToArray().Length} byte");
 
-foreach (var item in result)
-{
-    WriteLine(item); 
-}
+var resultD = await dataCompression.DecompressAsync<List<string>>(bytesD, Shared.Enums.CompressionMethod.DeflateStream);
+WriteLine(JsonConvert.SerializeObject(resultD).ToArray().Length);
+WriteLine($"DeflateStream decompress {JsonConvert.SerializeObject(resultD).ToArray().Length} byte");

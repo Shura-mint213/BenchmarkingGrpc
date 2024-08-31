@@ -34,3 +34,10 @@ D:\programm\GrpcTesting\ProcessingServer\obj\Debug\net8.0\refint\ProcessingServe
 D:\programm\GrpcTesting\ProcessingServer\obj\Debug\net8.0\ProcessingServer.pdb
 D:\programm\GrpcTesting\ProcessingServer\obj\Debug\net8.0\ProcessingServer.genruntimeconfig.cache
 D:\programm\GrpcTesting\ProcessingServer\obj\Debug\net8.0\ref\ProcessingServer.dll
+D:\programm\GrpcTesting\ProcessingServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\programm\GrpcTesting\ProcessingServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\programm\GrpcTesting\ProcessingServer\bin\Debug\net8.0\Northwind.EntityModels.dll
+D:\programm\GrpcTesting\ProcessingServer\bin\Debug\net8.0\Shared.dll
+D:\programm\GrpcTesting\ProcessingServer\bin\Debug\net8.0\Northwind.EntityModels.pdb
+D:\programm\GrpcTesting\ProcessingServer\bin\Debug\net8.0\Shared.pdb
+D:\programm\GrpcTesting\ProcessingServer\obj\Debug\net8.0\ProcessingServer.sourcelink.json

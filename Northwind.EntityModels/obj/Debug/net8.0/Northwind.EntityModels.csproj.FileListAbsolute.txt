@@ -10,3 +10,4 @@ D:\programm\GrpcTesting\Northwind.EntityModels\obj\Debug\net8.0\Northwind.Entity
 D:\programm\GrpcTesting\Northwind.EntityModels\obj\Debug\net8.0\refint\Northwind.EntityModels.dll
 D:\programm\GrpcTesting\Northwind.EntityModels\obj\Debug\net8.0\Northwind.EntityModels.pdb
 D:\programm\GrpcTesting\Northwind.EntityModels\obj\Debug\net8.0\ref\Northwind.EntityModels.dll
+D:\programm\GrpcTesting\Northwind.EntityModels\obj\Debug\net8.0\Northwind.EntityModels.sourcelink.json

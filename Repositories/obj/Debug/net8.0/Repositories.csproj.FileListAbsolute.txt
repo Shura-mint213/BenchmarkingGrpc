@@ -15,3 +15,4 @@ D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Repositories.dll
 D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Repositories.pdb
 D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\programm\GrpcTesting\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json

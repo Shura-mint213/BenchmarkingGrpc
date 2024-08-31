@@ -15,14 +15,14 @@ namespace Shared.Interfaces
         /// <param name="value">Строка для сжатия.</param>
         /// <param name="compressionType">Тип сжатия.</param>
         /// <returns>Сжатые данные в виде массива байт.</returns>
-        Task<byte[]> CompressAsync<T>(T value, CompressionMethod compressionType);
+        Task<byte[]> CompressAsync<T>(T value, CompressionMethod compressionMethod);
         /// <summary>
         /// Сжимает строку с помощью заданного типа сжатия.
         /// </summary>
         /// <param name="value">Массив байт для сжатия.</param>
         /// <param name="compressionType">Тип сжатия.</param>
         /// <returns>Сжатые данные в виде массива байт.</returns>
-        Task<byte[]> CompressAsync(byte[] value, CompressionMethod compressionType);
+        Task<byte[]> CompressAsync(byte[] value, CompressionMethod compressionMethod);
         /// <summary>
         /// Декомпрессирует сжатые данные и десериализует их в объект заданного метода.
         /// </summary>

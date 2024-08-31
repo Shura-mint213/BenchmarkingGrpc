@@ -15,3 +15,4 @@ D:\programm\GrpcTesting\Northwind.DataContext\obj\Debug\net8.0\Northwind.DataCon
 D:\programm\GrpcTesting\Northwind.DataContext\bin\Debug\net8.0\Northwind.EntityModels.dll
 D:\programm\GrpcTesting\Northwind.DataContext\bin\Debug\net8.0\Northwind.EntityModels.pdb
 D:\programm\GrpcTesting\Northwind.DataContext\obj\Debug\net8.0\Northwin.BEC4F3BB.Up2Date
+D:\programm\GrpcTesting\Northwind.DataContext\obj\Debug\net8.0\Northwind.DataContext.sourcelink.json

@@ -85,7 +85,8 @@ namespace Core.Сompression
             {
                 using (var outStream = new MemoryStream())
                 {
-                    using (var decompressStream = GetDecompressionStream(memoryStream, compressionMethod))
+                    using (var decompressStream = 
+                        GetDecompressionStream(memoryStream, compressionMethod))
                     {
                         await decompressStream.CopyToAsync(outStream);
                     }
