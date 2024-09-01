@@ -24,11 +24,15 @@ namespace ProcessingServer.Extensions
                 client.Timeout = timeout;
             });
 
-            services.AddHttpClient(SettingsHttpClients.NameGrpcTesting, client =>
-            {
-                client.BaseAddress = new Uri(SettingsHttpClients.GrpcTestingUrl);
-                client.Timeout = timeout;
-            });
+            //services.AddHttpClient(SettingsHttpClients.NameGrpcTesting, client =>
+            //{
+            //    client.BaseAddress = new Uri(SettingsHttpClients.GrpcTestingUrl);
+            //    client.Timeout = timeout;
+            //});
+        }
+
+        public static void ConfigureServices(this IServiceCollection services)
+        {
         }
     }
 }

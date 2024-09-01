@@ -46,16 +46,16 @@ namespace GrpcTesting {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcTesting.OrdersRequest> __Marshaller_orders_OrdersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcTesting.OrdersRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcTesting.OrdersReply> __Marshaller_orders_OrdersReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcTesting.OrdersReply.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::GrpcTesting.OrdersRequest, global::GrpcTesting.OrdersReply> __Method_GetOrders = new grpc::Method<global::GrpcTesting.OrdersRequest, global::GrpcTesting.OrdersReply>(
+    static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::GrpcTesting.OrdersReply> __Method_GetOrders = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::GrpcTesting.OrdersReply>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetOrders",
-        __Marshaller_orders_OrdersRequest,
+        __Marshaller_google_protobuf_Empty,
         __Marshaller_orders_OrdersReply);
 
     /// <summary>Service descriptor</summary>
@@ -69,7 +69,7 @@ namespace GrpcTesting {
     public abstract partial class OrdersBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::GrpcTesting.OrdersReply> GetOrders(global::GrpcTesting.OrdersRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::GrpcTesting.OrdersReply> GetOrders(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -92,7 +92,7 @@ namespace GrpcTesting {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, OrdersBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_GetOrders, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcTesting.OrdersRequest, global::GrpcTesting.OrdersReply>(serviceImpl.GetOrders));
+      serviceBinder.AddMethod(__Method_GetOrders, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::GrpcTesting.OrdersReply>(serviceImpl.GetOrders));
     }
 
   }

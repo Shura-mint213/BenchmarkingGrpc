@@ -22,6 +22,6 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 app.MapGrpcService<OrdersService>();
-app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
+app.MapGet("/", () => "Не удалось найти конечную точку, к которой шел запрос; возможно, она не была зарегистрирована на gRPC сервере.");
 
 app.Run();

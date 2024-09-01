@@ -1,7 +1,16 @@
-﻿using ProcessingServer.Interfaces;
+﻿using Google.Protobuf.WellKnownTypes;
+using Grpc.Net.Client;
+using GrpcTesting;
+using GrpcTesting.Converters;
+using Newtonsoft.Json;
+using ProcessingServer.Interfaces;
 using ProcessingServer.Shared.Statics;
 using Shared.Models;
+using Core.Parsers;
+using System.Text.Json.Serialization;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Google.Protobuf;
+using Northwind.EntityModels;
 
 namespace ProcessingServer.Services
 {
@@ -39,21 +48,6 @@ namespace ProcessingServer.Services
             using HttpClient client = _httpClientFactory
                 .CreateClient(SettingsHttpClients.NameGrpcTesting);
 
-            try
-            {
-                //using (GrpcChannel channel =
-                //    GrpcChannel.ForAddress("https://localhost:5006"))
-                //{
-                //    Greeter.GreeterClient greeter = new(channel);
-                //    HelloReply reply = await greeter.SayHelloAsync(new HelloRequest { Name = "Henrietta" });
-                //    return "Greeting from gRPC service: " + reply.Message;
-                //}
-            }
-            catch (Exception)
-            {
-                throw new Exception($"Northwind.gRPC service is not responding.");
-            }
-
             HttpResponseMessage response =
                 await client.GetAsync(_dataServerUrl);
 
@@ -65,7 +59,31 @@ namespace ProcessingServer.Services
             {
                 return _standardErrorModel.ToString();
             }
+        }
 
+        /// <summary>
+        /// Метод осуществляет запрос к серверу gRPC за получением заказов.
+        /// </summary>
+        /// <remarks>Если при получении данных с сервера возникли ошибки, 
+        /// то возвращается модель данных ошибок <seealso cref="ErrorModel"/>; 
+        /// в противном случае возвращаются данные, которые пришли с сервера.</remarks>
+        /// <returns>Список моделей данных заказов</returns>
+        public async Task<string> GetOrdersToGrpcServer()
+        {
+            try
+            {
+                using (GrpcChannel channel =
+                    GrpcChannel.ForAddress(SettingsHttpClients.GrpcTestingUrl))
+                {
+                    Orders.OrdersClient orders = new(channel);
+                    OrdersReply reply = await orders.GetOrdersAsync(new Empty());
+                    return JsonConvert.SerializeObject(reply.Orders.Select(order => order.ToOrderReplay()));
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ошибка при получении данных с сервера о заказах.", ex);
+            }
         }
     }
 }

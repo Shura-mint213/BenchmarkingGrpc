@@ -5,7 +5,9 @@ using GrpcTestingClient;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Northwind.EntityModels;
+using ProcessingServer.Interfaces;
 using ProcessingServer.Shared.Statics;
+using System.Net.Http;
 
 namespace ProcessingServer.Controllers
 {
@@ -13,45 +15,25 @@ namespace ProcessingServer.Controllers
     [Route("[controller]")]
     public class TestController : ControllerBase
     {
-        [Route("getData")]
+        private readonly IUrlRequestsService _urlRequestsService;
+        public TestController(IUrlRequestsService urlRequestsService)
+        {
+            _urlRequestsService = urlRequestsService ??
+                throw new ArgumentNullException(nameof(urlRequestsService));
+        }
+
+        [Route("getOrdersServer")]
         [HttpGet]
         public async Task<string> GetData()
         {
-            try
-            {
-                using (GrpcChannel channel =
-                    GrpcChannel.ForAddress("https://localhost:5006"))
-                {
-                    Greeter.GreeterClient greeter = new(channel);
-                    HelloReply reply = await greeter.SayHelloAsync(new HelloRequest { Name = "Henrietta" });
-                    return "Greeting from gRPC service: " + reply.Message;
-                }
-            }
-            catch (Exception)
-            {
-                throw new Exception($"Northwind.gRPC service is not responding.");
-            }
+            return await _urlRequestsService.GetOrdersToDataServer();
         }
 
-        [Route("getOrders")]
+        [Route("getOrdersGrpc")]
         [HttpGet]
-        public async Task<IEnumerable<Order>> GetOrders()
+        public async Task<string> GetOrders()
         {
-            try
-            {
-                using (GrpcChannel channel =
-                    GrpcChannel.ForAddress(SettingsHttpClients.GrpcTestingUrl))
-                {
-                    Orders.OrdersClient orders = new(channel);
-                    orders.GetOrders(new OrdersRequest());
-                    OrdersReply reply = await orders.GetOrdersAsync(new OrdersRequest());
-                    return reply.Orders.Select(order => order.ToOrderReplay());
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Ошибка при получении данных с сервера о заказах.", ex);
-            }
+            return await _urlRequestsService.GetOrdersToGrpcServer();
         }
     }
 }

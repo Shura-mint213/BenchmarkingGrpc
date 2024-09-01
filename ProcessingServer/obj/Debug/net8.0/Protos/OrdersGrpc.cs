@@ -46,16 +46,16 @@ namespace GrpcTesting {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcTesting.OrdersRequest> __Marshaller_orders_OrdersRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcTesting.OrdersRequest.Parser));
+    static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcTesting.OrdersReply> __Marshaller_orders_OrdersReply = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcTesting.OrdersReply.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::GrpcTesting.OrdersRequest, global::GrpcTesting.OrdersReply> __Method_GetOrders = new grpc::Method<global::GrpcTesting.OrdersRequest, global::GrpcTesting.OrdersReply>(
+    static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::GrpcTesting.OrdersReply> __Method_GetOrders = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::GrpcTesting.OrdersReply>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetOrders",
-        __Marshaller_orders_OrdersRequest,
+        __Marshaller_google_protobuf_Empty,
         __Marshaller_orders_OrdersReply);
 
     /// <summary>Service descriptor</summary>
@@ -92,22 +92,22 @@ namespace GrpcTesting {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::GrpcTesting.OrdersReply GetOrders(global::GrpcTesting.OrdersRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::GrpcTesting.OrdersReply GetOrders(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetOrders(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::GrpcTesting.OrdersReply GetOrders(global::GrpcTesting.OrdersRequest request, grpc::CallOptions options)
+      public virtual global::GrpcTesting.OrdersReply GetOrders(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetOrders, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::GrpcTesting.OrdersReply> GetOrdersAsync(global::GrpcTesting.OrdersRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::GrpcTesting.OrdersReply> GetOrdersAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetOrdersAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::GrpcTesting.OrdersReply> GetOrdersAsync(global::GrpcTesting.OrdersRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::GrpcTesting.OrdersReply> GetOrdersAsync(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetOrders, null, options, request);
       }

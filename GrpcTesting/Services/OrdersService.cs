@@ -1,4 +1,5 @@
 ﻿using Azure.Core;
+using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
 using GrpcTesting.Converters;
 using Northwind.EntityModels;
@@ -16,7 +17,7 @@ namespace GrpcTesting.Services
             _orderRepository = orderRepository;
         }
 
-        public override async Task<OrdersReply> GetOrders(OrdersRequest request, ServerCallContext context)
+        public override async Task<OrdersReply> GetOrders(Empty request, ServerCallContext context)
         {
             var ordersReply = new OrdersReply();
             List<Order> orders = await _orderRepository.GetAsync();

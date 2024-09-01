@@ -3,12 +3,12 @@ syntax = "proto3";
 option csharp_namespace = "GrpcTesting";
 
 import "google/protobuf/wrappers.proto";
-import "google/protobuf/timestamp.proto";
+import "google/protobuf/empty.proto";
 
 package orders;
 
 service Orders {
-  rpc GetOrders (OrdersRequest) returns (OrdersReply);
+  rpc GetOrders (google.protobuf.Empty) returns (OrdersReply);
 }
 
 message OrdersRequest { }
