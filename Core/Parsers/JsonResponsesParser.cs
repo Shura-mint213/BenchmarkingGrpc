@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Core.Parsers
 {
-    public static class JsonResponses
+    public static class JsonResponsesParser
     {
         /// <summary>
         /// Метод парсит JSON, полученный от сервера.

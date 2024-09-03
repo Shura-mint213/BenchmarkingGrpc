@@ -7,7 +7,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Remove="Protos\greet.proto" />
 		<None Remove="Protos\orders.proto" />
 	</ItemGroup>
 
@@ -23,12 +22,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\Core\Core.csproj" />
 	  <ProjectReference Include="..\Northwind.EntityModels\Northwind.EntityModels.csproj" />
 	  <ProjectReference Include="..\Shared\Shared.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<Protobuf Include="Protos\greet.proto" GrpcServices="Client" />
 		<Protobuf Include="Protos\orders.proto" GrpcServices="Client" />
 	</ItemGroup>
 

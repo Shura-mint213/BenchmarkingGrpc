@@ -7,10 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MongoContext\MongoContext.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.28.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MongoModels\MongoModels.csproj" />
-    <ProjectReference Include="..\Northwind.DataContext\Northwind.DataContext.csproj" />
-    <ProjectReference Include="..\Northwind.EntityModels\Northwind.EntityModels.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
 
 </Project>

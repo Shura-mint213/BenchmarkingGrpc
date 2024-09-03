@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Northwind.EntityModels;
-using Repositories.Interfaces;
+using Repositories.MsSql.Interfaces;
 
 namespace DataServer.Controllers
 {

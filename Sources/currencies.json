@@ -1,0 +1,1664 @@
+[
+  {
+    "Country": "MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP",
+    "Currency": "ADB Unit of Account",
+    "Code": "XUA",
+    "Number": "965"
+  },
+  {
+    "Country": "AFGHANISTAN",
+    "Currency": "Afghani",
+    "Code": "AFN",
+    "Number": "971"
+  },
+  {
+    "Country": "ALGERIA",
+    "Currency": "Algerian Dinar",
+    "Code": "DZD",
+    "Number": "12"
+  },
+  {
+    "Country": "ARGENTINA",
+    "Currency": "Argentine Peso",
+    "Code": "ARS",
+    "Number": "32"
+  },
+  {
+    "Country": "ARMENIA",
+    "Currency": "Armenian Dram",
+    "Code": "AMD",
+    "Number": "51"
+  },
+  {
+    "Country": "ARUBA",
+    "Currency": "Aruban Florin",
+    "Code": "AWG",
+    "Number": "533"
+  },
+  {
+    "Country": "AUSTRALIA",
+    "Currency": "Australian Dollar",
+    "Code": "AUD",
+    "Number": "36"
+  },
+  {
+    "Country": "CHRISTMAS ISLAND",
+    "Currency": "Australian Dollar",
+    "Code": "AUD",
+    "Number": "36"
+  },
+  {
+    "Country": "COCOS (KEELING) ISLANDS (THE)",
+    "Currency": "Australian Dollar",
+    "Code": "AUD",
+    "Number": "36"
+  },
+  {
+    "Country": "HEARD ISLAND AND McDONALD ISLANDS",
+    "Currency": "Australian Dollar",
+    "Code": "AUD",
+    "Number": "36"
+  },
+  {
+    "Country": "KIRIBATI",
+    "Currency": "Australian Dollar",
+    "Code": "AUD",
+    "Number": "36"
+  },
+  {
+    "Country": "NAURU",
+    "Currency": "Australian Dollar",
+    "Code": "AUD",
+    "Number": "36"
+  },
+  {
+    "Country": "NORFOLK ISLAND",
+    "Currency": "Australian Dollar",
+    "Code": "AUD",
+    "Number": "36"
+  },
+  {
+    "Country": "TUVALU",
+    "Currency": "Australian Dollar",
+    "Code": "AUD",
+    "Number": "36"
+  },
+  {
+    "Country": "AZERBAIJAN",
+    "Currency": "Azerbaijanian Manat",
+    "Code": "AZN",
+    "Number": "944"
+  },
+  {
+    "Country": "BAHAMAS (THE)",
+    "Currency": "Bahamian Dollar",
+    "Code": "BSD",
+    "Number": "44"
+  },
+  {
+    "Country": "BAHRAIN",
+    "Currency": "Bahraini Dinar",
+    "Code": "BHD",
+    "Number": "48"
+  },
+  {
+    "Country": "THAILAND",
+    "Currency": "Baht",
+    "Code": "THB",
+    "Number": "764"
+  },
+  {
+    "Country": "PANAMA",
+    "Currency": "Balboa",
+    "Code": "PAB",
+    "Number": "590"
+  },
+  {
+    "Country": "BARBADOS",
+    "Currency": "Barbados Dollar",
+    "Code": "BBD",
+    "Number": "52"
+  },
+  {
+    "Country": "BELARUS",
+    "Currency": "Belarussian Ruble",
+    "Code": "BYN",
+    "Number": "933"
+  },
+  {
+    "Country": "BELIZE",
+    "Currency": "Belize Dollar",
+    "Code": "BZD",
+    "Number": "84"
+  },
+  {
+    "Country": "BERMUDA",
+    "Currency": "Bermudian Dollar",
+    "Code": "BMD",
+    "Number": "60"
+  },
+  {
+    "Country": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+    "Currency": "Bolivar",
+    "Code": "VEF",
+    "Number": "937"
+  },
+  {
+    "Country": "VENEZUELA (BOLIVARIAN REPUBLIC OF)",
+    "Currency": "Bolivar",
+    "Code": "VED",
+    "Number": "926"
+  },
+  {
+    "Country": "BOLIVIA (PLURINATIONAL STATE OF)",
+    "Currency": "Boliviano",
+    "Code": "BOB",
+    "Number": "68"
+  },
+  {
+    "Country": "BRAZIL",
+    "Currency": "Brazilian Real",
+    "Code": "BRL",
+    "Number": "986"
+  },
+  {
+    "Country": "BRUNEI DARUSSALAM",
+    "Currency": "Brunei Dollar",
+    "Code": "BND",
+    "Number": "96"
+  },
+  {
+    "Country": "BULGARIA",
+    "Currency": "Bulgarian Lev",
+    "Code": "BGN",
+    "Number": "975"
+  },
+  {
+    "Country": "BURUNDI",
+    "Currency": "Burundi Franc",
+    "Code": "BIF",
+    "Number": "108"
+  },
+  {
+    "Country": "CABO VERDE",
+    "Currency": "Cabo Verde Escudo",
+    "Code": "CVE",
+    "Number": "132"
+  },
+  {
+    "Country": "CANADA",
+    "Currency": "Canadian Dollar",
+    "Code": "CAD",
+    "Number": "124"
+  },
+  {
+    "Country": "CAYMAN ISLANDS (THE)",
+    "Currency": "Cayman Islands Dollar",
+    "Code": "KYD",
+    "Number": "136"
+  },
+  {
+    "Country": "BENIN",
+    "Currency": "CFA Franc BCEAO",
+    "Code": "XOF",
+    "Number": "952"
+  },
+  {
+    "Country": "BURKINA FASO",
+    "Currency": "CFA Franc BCEAO",
+    "Code": "XOF",
+    "Number": "952"
+  },
+  {
+    "Country": "CÔTE D'IVOIRE",
+    "Currency": "CFA Franc BCEAO",
+    "Code": "XOF",
+    "Number": "952"
+  },
+  {
+    "Country": "GUINEA-BISSAU",
+    "Currency": "CFA Franc BCEAO",
+    "Code": "XOF",
+    "Number": "952"
+  },
+  {
+    "Country": "MALI",
+    "Currency": "CFA Franc BCEAO",
+    "Code": "XOF",
+    "Number": "952"
+  },
+  {
+    "Country": "NIGER (THE)",
+    "Currency": "CFA Franc BCEAO",
+    "Code": "XOF",
+    "Number": "952"
+  },
+  {
+    "Country": "SENEGAL",
+    "Currency": "CFA Franc BCEAO",
+    "Code": "XOF",
+    "Number": "952"
+  },
+  {
+    "Country": "TOGO",
+    "Currency": "CFA Franc BCEAO",
+    "Code": "XOF",
+    "Number": "952"
+  },
+  {
+    "Country": "CAMEROON",
+    "Currency": "CFA Franc BEAC",
+    "Code": "XAF",
+    "Number": "950"
+  },
+  {
+    "Country": "CENTRAL AFRICAN REPUBLIC (THE)",
+    "Currency": "CFA Franc BEAC",
+    "Code": "XAF",
+    "Number": "950"
+  },
+  {
+    "Country": "CHAD",
+    "Currency": "CFA Franc BEAC",
+    "Code": "XAF",
+    "Number": "950"
+  },
+  {
+    "Country": "CONGO (THE)",
+    "Currency": "CFA Franc BEAC",
+    "Code": "XAF",
+    "Number": "950"
+  },
+  {
+    "Country": "EQUATORIAL GUINEA",
+    "Currency": "CFA Franc BEAC",
+    "Code": "XAF",
+    "Number": "950"
+  },
+  {
+    "Country": "GABON",
+    "Currency": "CFA Franc BEAC",
+    "Code": "XAF",
+    "Number": "950"
+  },
+  {
+    "Country": "FRENCH POLYNESIA",
+    "Currency": "CFP Franc",
+    "Code": "XPF",
+    "Number": "953"
+  },
+  {
+    "Country": "NEW CALEDONIA",
+    "Currency": "CFP Franc",
+    "Code": "XPF",
+    "Number": "953"
+  },
+  {
+    "Country": "WALLIS AND FUTUNA",
+    "Currency": "CFP Franc",
+    "Code": "XPF",
+    "Number": "953"
+  },
+  {
+    "Country": "CHILE",
+    "Currency": "Chilean Peso",
+    "Code": "CLP",
+    "Number": "152"
+  },
+  {
+    "Country": "COLOMBIA",
+    "Currency": "Colombian Peso",
+    "Code": "COP",
+    "Number": "170"
+  },
+  {
+    "Country": "COMOROS (THE)",
+    "Currency": "Comoro Franc",
+    "Code": "KMF",
+    "Number": "174"
+  },
+  {
+    "Country": "CONGO (THE DEMOCRATIC REPUBLIC OF THE)",
+    "Currency": "Congolese Franc",
+    "Code": "CDF",
+    "Number": "976"
+  },
+  {
+    "Country": "BOSNIA AND HERZEGOVINA",
+    "Currency": "Convertible Mark",
+    "Code": "BAM",
+    "Number": "977"
+  },
+  {
+    "Country": "NICARAGUA",
+    "Currency": "Cordoba Oro",
+    "Code": "NIO",
+    "Number": "558"
+  },
+  {
+    "Country": "COSTA RICA",
+    "Currency": "Costa Rican Colon",
+    "Code": "CRC",
+    "Number": "188"
+  },
+  {
+    "Country": "CUBA",
+    "Currency": "Cuban Peso",
+    "Code": "CUP",
+    "Number": "192"
+  },
+  {
+    "Country": "CZECH REPUBLIC (THE)",
+    "Currency": "Czech Koruna",
+    "Code": "CZK",
+    "Number": "203"
+  },
+  {
+    "Country": "GAMBIA (THE)",
+    "Currency": "Dalasi",
+    "Code": "GMD",
+    "Number": "270"
+  },
+  {
+    "Country": "DENMARK",
+    "Currency": "Danish Krone",
+    "Code": "DKK",
+    "Number": "208"
+  },
+  {
+    "Country": "FAROE ISLANDS (THE)",
+    "Currency": "Danish Krone",
+    "Code": "DKK",
+    "Number": "208"
+  },
+  {
+    "Country": "GREENLAND",
+    "Currency": "Danish Krone",
+    "Code": "DKK",
+    "Number": "208"
+  },
+  {
+    "Country": "REPUBLIC OF NORTH MACEDONIA",
+    "Currency": "Denar",
+    "Code": "MKD",
+    "Number": "807"
+  },
+  {
+    "Country": "DJIBOUTI",
+    "Currency": "Djibouti Franc",
+    "Code": "DJF",
+    "Number": "262"
+  },
+  {
+    "Country": "SAO TOME AND PRINCIPE",
+    "Currency": "Dobra",
+    "Code": "STN",
+    "Number": "930"
+  },
+  {
+    "Country": "DOMINICAN REPUBLIC (THE)",
+    "Currency": "Dominican Peso",
+    "Code": "DOP",
+    "Number": "214"
+  },
+  {
+    "Country": "VIET NAM",
+    "Currency": "Dong",
+    "Code": "VND",
+    "Number": "704"
+  },
+  {
+    "Country": "ANGUILLA",
+    "Currency": "East Caribbean Dollar",
+    "Code": "XCD",
+    "Number": "951"
+  },
+  {
+    "Country": "ANTIGUA AND BARBUDA",
+    "Currency": "East Caribbean Dollar",
+    "Code": "XCD",
+    "Number": "951"
+  },
+  {
+    "Country": "DOMINICA",
+    "Currency": "East Caribbean Dollar",
+    "Code": "XCD",
+    "Number": "951"
+  },
+  {
+    "Country": "GRENADA",
+    "Currency": "East Caribbean Dollar",
+    "Code": "XCD",
+    "Number": "951"
+  },
+  {
+    "Country": "MONTSERRAT",
+    "Currency": "East Caribbean Dollar",
+    "Code": "XCD",
+    "Number": "951"
+  },
+  {
+    "Country": "SAINT KITTS AND NEVIS",
+    "Currency": "East Caribbean Dollar",
+    "Code": "XCD",
+    "Number": "951"
+  },
+  {
+    "Country": "SAINT LUCIA",
+    "Currency": "East Caribbean Dollar",
+    "Code": "XCD",
+    "Number": "951"
+  },
+  {
+    "Country": "SAINT VINCENT AND THE GRENADINES",
+    "Currency": "East Caribbean Dollar",
+    "Code": "XCD",
+    "Number": "951"
+  },
+  {
+    "Country": "EGYPT",
+    "Currency": "Egyptian Pound",
+    "Code": "EGP",
+    "Number": "818"
+  },
+  {
+    "Country": "EL SALVADOR",
+    "Currency": "El Salvador Colon",
+    "Code": "SVC",
+    "Number": "222"
+  },
+  {
+    "Country": "ETHIOPIA",
+    "Currency": "Ethiopian Birr",
+    "Code": "ETB",
+    "Number": "230"
+  },
+  {
+    "Country": "ÅLAND ISLANDS",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "ANDORRA",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "AUSTRIA",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "BELGIUM",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "CROATIA",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "CYPRUS",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "ESTONIA",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "EUROPEAN UNION",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "FINLAND",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "FRANCE",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "FRENCH GUIANA",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "FRENCH SOUTHERN TERRITORIES (THE)",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "GERMANY",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "GREECE",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "GUADELOUPE",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "HOLY SEE (THE)",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "IRELAND",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "ITALY",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "LATVIA",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "LITHUANIA",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "LUXEMBOURG",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "MALTA",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "MARTINIQUE",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "MAYOTTE",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "MONACO",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "MONTENEGRO",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "NETHERLANDS (THE)",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "PORTUGAL",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "RÉUNION",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "SAINT BARTHÉLEMY",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "SAINT MARTIN (FRENCH PART)",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "SAINT PIERRE AND MIQUELON",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "SAN MARINO",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "SLOVAKIA",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "SLOVENIA",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "SPAIN",
+    "Currency": "Euro",
+    "Code": "EUR",
+    "Number": "978"
+  },
+  {
+    "Country": "FALKLAND ISLANDS (THE) [MALVINAS]",
+    "Currency": "Falkland Islands Pound",
+    "Code": "FKP",
+    "Number": "238"
+  },
+  {
+    "Country": "FIJI",
+    "Currency": "Fiji Dollar",
+    "Code": "FJD",
+    "Number": "242"
+  },
+  {
+    "Country": "HUNGARY",
+    "Currency": "Forint",
+    "Code": "HUF",
+    "Number": "348"
+  },
+  {
+    "Country": "GHANA",
+    "Currency": "Ghana Cedi",
+    "Code": "GHS",
+    "Number": "936"
+  },
+  {
+    "Country": "GIBRALTAR",
+    "Currency": "Gibraltar Pound",
+    "Code": "GIP",
+    "Number": "292"
+  },
+  {
+    "Country": "HAITI",
+    "Currency": "Gourde",
+    "Code": "HTG",
+    "Number": "332"
+  },
+  {
+    "Country": "PARAGUAY",
+    "Currency": "Guarani",
+    "Code": "PYG",
+    "Number": "600"
+  },
+  {
+    "Country": "GUINEA",
+    "Currency": "Guinea Franc",
+    "Code": "GNF",
+    "Number": "324"
+  },
+  {
+    "Country": "GUYANA",
+    "Currency": "Guyana Dollar",
+    "Code": "GYD",
+    "Number": "328"
+  },
+  {
+    "Country": "HONG KONG",
+    "Currency": "Hong Kong Dollar",
+    "Code": "HKD",
+    "Number": "344"
+  },
+  {
+    "Country": "UKRAINE",
+    "Currency": "Hryvnia",
+    "Code": "UAH",
+    "Number": "980"
+  },
+  {
+    "Country": "ICELAND",
+    "Currency": "Iceland Krona",
+    "Code": "ISK",
+    "Number": "352"
+  },
+  {
+    "Country": "BHUTAN",
+    "Currency": "Indian Rupee",
+    "Code": "INR",
+    "Number": "356"
+  },
+  {
+    "Country": "INDIA",
+    "Currency": "Indian Rupee",
+    "Code": "INR",
+    "Number": "356"
+  },
+  {
+    "Country": "IRAN (ISLAMIC REPUBLIC OF)",
+    "Currency": "Iranian Rial",
+    "Code": "IRR",
+    "Number": "364"
+  },
+  {
+    "Country": "IRAQ",
+    "Currency": "Iraqi Dinar",
+    "Code": "IQD",
+    "Number": "368"
+  },
+  {
+    "Country": "JAMAICA",
+    "Currency": "Jamaican Dollar",
+    "Code": "JMD",
+    "Number": "388"
+  },
+  {
+    "Country": "JORDAN",
+    "Currency": "Jordanian Dinar",
+    "Code": "JOD",
+    "Number": "400"
+  },
+  {
+    "Country": "KENYA",
+    "Currency": "Kenyan Shilling",
+    "Code": "KES",
+    "Number": "404"
+  },
+  {
+    "Country": "PAPUA NEW GUINEA",
+    "Currency": "Kina",
+    "Code": "PGK",
+    "Number": "598"
+  },
+  {
+    "Country": "LAO PEOPLE’S DEMOCRATIC REPUBLIC (THE)",
+    "Currency": "Kip",
+    "Code": "LAK",
+    "Number": "418"
+  },
+  {
+    "Country": "KUWAIT",
+    "Currency": "Kuwaiti Dinar",
+    "Code": "KWD",
+    "Number": "414"
+  },
+  {
+    "Country": "MALAWI",
+    "Currency": "Kwacha",
+    "Code": "MWK",
+    "Number": "454"
+  },
+  {
+    "Country": "ANGOLA",
+    "Currency": "Kwanza",
+    "Code": "AOA",
+    "Number": "973"
+  },
+  {
+    "Country": "MYANMAR",
+    "Currency": "Kyat",
+    "Code": "MMK",
+    "Number": "104"
+  },
+  {
+    "Country": "GEORGIA",
+    "Currency": "Lari",
+    "Code": "GEL",
+    "Number": "981"
+  },
+  {
+    "Country": "LEBANON",
+    "Currency": "Lebanese Pound",
+    "Code": "LBP",
+    "Number": "422"
+  },
+  {
+    "Country": "ALBANIA",
+    "Currency": "Lek",
+    "Code": "ALL",
+    "Number": "8"
+  },
+  {
+    "Country": "HONDURAS",
+    "Currency": "Lempira",
+    "Code": "HNL",
+    "Number": "340"
+  },
+  {
+    "Country": "SIERRA LEONE",
+    "Currency": "Leone",
+    "Code": "SLE",
+    "Number": "925"
+  },
+  {
+    "Country": "LIBERIA",
+    "Currency": "Liberian Dollar",
+    "Code": "LRD",
+    "Number": "430"
+  },
+  {
+    "Country": "LIBYA",
+    "Currency": "Libyan Dinar",
+    "Code": "LYD",
+    "Number": "434"
+  },
+  {
+    "Country": "SWAZILAND",
+    "Currency": "Lilangeni",
+    "Code": "SZL",
+    "Number": "748"
+  },
+  {
+    "Country": "LESOTHO",
+    "Currency": "Loti",
+    "Code": "LSL",
+    "Number": "426"
+  },
+  {
+    "Country": "MADAGASCAR",
+    "Currency": "Malagasy Ariary",
+    "Code": "MGA",
+    "Number": "969"
+  },
+  {
+    "Country": "MALAYSIA",
+    "Currency": "Malaysian Ringgit",
+    "Code": "MYR",
+    "Number": "458"
+  },
+  {
+    "Country": "MAURITIUS",
+    "Currency": "Mauritius Rupee",
+    "Code": "MUR",
+    "Number": "480"
+  },
+  {
+    "Country": "MEXICO",
+    "Currency": "Mexican Peso",
+    "Code": "MXN",
+    "Number": "484"
+  },
+  {
+    "Country": "MEXICO",
+    "Currency": "Mexican Unidad de Inversion (UDI)",
+    "Code": "MXV",
+    "Number": "979"
+  },
+  {
+    "Country": "MOLDOVA (THE REPUBLIC OF)",
+    "Currency": "Moldovan Leu",
+    "Code": "MDL",
+    "Number": "498"
+  },
+  {
+    "Country": "MOROCCO",
+    "Currency": "Moroccan Dirham",
+    "Code": "MAD",
+    "Number": "504"
+  },
+  {
+    "Country": "WESTERN SAHARA",
+    "Currency": "Moroccan Dirham",
+    "Code": "MAD",
+    "Number": "504"
+  },
+  {
+    "Country": "MOZAMBIQUE",
+    "Currency": "Mozambique Metical",
+    "Code": "MZN",
+    "Number": "943"
+  },
+  {
+    "Country": "BOLIVIA (PLURINATIONAL STATE OF)",
+    "Currency": "Mvdol",
+    "Code": "BOV",
+    "Number": "984"
+  },
+  {
+    "Country": "NIGERIA",
+    "Currency": "Naira",
+    "Code": "NGN",
+    "Number": "566"
+  },
+  {
+    "Country": "ERITREA",
+    "Currency": "Nakfa",
+    "Code": "ERN",
+    "Number": "232"
+  },
+  {
+    "Country": "NAMIBIA",
+    "Currency": "Namibia Dollar",
+    "Code": "NAD",
+    "Number": "516"
+  },
+  {
+    "Country": "NEPAL",
+    "Currency": "Nepalese Rupee",
+    "Code": "NPR",
+    "Number": "524"
+  },
+  {
+    "Country": "CURAÇAO",
+    "Currency": "Netherlands Antillean Guilder",
+    "Code": "ANG",
+    "Number": "532"
+  },
+  {
+    "Country": "SINT MAARTEN (DUTCH PART)",
+    "Currency": "Netherlands Antillean Guilder",
+    "Code": "ANG",
+    "Number": "532"
+  },
+  {
+    "Country": "ISRAEL",
+    "Currency": "New Israeli Sheqel",
+    "Code": "ILS",
+    "Number": "376"
+  },
+  {
+    "Country": "TAIWAN (PROVINCE OF CHINA)",
+    "Currency": "New Taiwan Dollar",
+    "Code": "TWD",
+    "Number": "901"
+  },
+  {
+    "Country": "COOK ISLANDS (THE)",
+    "Currency": "New Zealand Dollar",
+    "Code": "NZD",
+    "Number": "554"
+  },
+  {
+    "Country": "NEW ZEALAND",
+    "Currency": "New Zealand Dollar",
+    "Code": "NZD",
+    "Number": "554"
+  },
+  {
+    "Country": "NIUE",
+    "Currency": "New Zealand Dollar",
+    "Code": "NZD",
+    "Number": "554"
+  },
+  {
+    "Country": "PITCAIRN",
+    "Currency": "New Zealand Dollar",
+    "Code": "NZD",
+    "Number": "554"
+  },
+  {
+    "Country": "TOKELAU",
+    "Currency": "New Zealand Dollar",
+    "Code": "NZD",
+    "Number": "554"
+  },
+  {
+    "Country": "BHUTAN",
+    "Currency": "Ngultrum",
+    "Code": "BTN",
+    "Number": "64"
+  },
+  {
+    "Country": "ANTARCTICA",
+    "Currency": "No universal currency",
+    "Code": "",
+    "Number": ""
+  },
+  {
+    "Country": "PALESTINE, STATE OF",
+    "Currency": "No universal currency",
+    "Code": "",
+    "Number": ""
+  },
+  {
+    "Country": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+    "Currency": "No universal currency",
+    "Code": "",
+    "Number": ""
+  },
+  {
+    "Country": "KOREA (THE DEMOCRATIC PEOPLE’S REPUBLIC OF)",
+    "Currency": "North Korean Won",
+    "Code": "KPW",
+    "Number": "408"
+  },
+  {
+    "Country": "BOUVET ISLAND",
+    "Currency": "Norwegian Krone",
+    "Code": "NOK",
+    "Number": "578"
+  },
+  {
+    "Country": "NORWAY",
+    "Currency": "Norwegian Krone",
+    "Code": "NOK",
+    "Number": "578"
+  },
+  {
+    "Country": "SVALBARD AND JAN MAYEN",
+    "Currency": "Norwegian Krone",
+    "Code": "NOK",
+    "Number": "578"
+  },
+  {
+    "Country": "PERU",
+    "Currency": "Nuevo Sol",
+    "Code": "PEN",
+    "Number": "604"
+  },
+  {
+    "Country": "MAURITANIA",
+    "Currency": "Ouguiya",
+    "Code": "MRU",
+    "Number": "929"
+  },
+  {
+    "Country": "PAKISTAN",
+    "Currency": "Pakistan Rupee",
+    "Code": "PKR",
+    "Number": "586"
+  },
+  {
+    "Country": "MACAO",
+    "Currency": "Pataca",
+    "Code": "MOP",
+    "Number": "446"
+  },
+  {
+    "Country": "TONGA",
+    "Currency": "Pa’anga",
+    "Code": "TOP",
+    "Number": "776"
+  },
+  {
+    "Country": "CUBA",
+    "Currency": "Peso Convertible",
+    "Code": "CUC",
+    "Number": "931"
+  },
+  {
+    "Country": "URUGUAY",
+    "Currency": "Peso Uruguayo",
+    "Code": "UYU",
+    "Number": "858"
+  },
+  {
+    "Country": "PHILIPPINES (THE)",
+    "Currency": "Philippine Peso",
+    "Code": "PHP",
+    "Number": "608"
+  },
+  {
+    "Country": "GUERNSEY",
+    "Currency": "Pound Sterling",
+    "Code": "GBP",
+    "Number": "826"
+  },
+  {
+    "Country": "ISLE OF MAN",
+    "Currency": "Pound Sterling",
+    "Code": "GBP",
+    "Number": "826"
+  },
+  {
+    "Country": "JERSEY",
+    "Currency": "Pound Sterling",
+    "Code": "GBP",
+    "Number": "826"
+  },
+  {
+    "Country": "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)",
+    "Currency": "Pound Sterling",
+    "Code": "GBP",
+    "Number": "826"
+  },
+  {
+    "Country": "BOTSWANA",
+    "Currency": "Pula",
+    "Code": "BWP",
+    "Number": "72"
+  },
+  {
+    "Country": "QATAR",
+    "Currency": "Qatari Rial",
+    "Code": "QAR",
+    "Number": "634"
+  },
+  {
+    "Country": "GUATEMALA",
+    "Currency": "Quetzal",
+    "Code": "GTQ",
+    "Number": "320"
+  },
+  {
+    "Country": "LESOTHO",
+    "Currency": "Rand",
+    "Code": "ZAR",
+    "Number": "710"
+  },
+  {
+    "Country": "NAMIBIA",
+    "Currency": "Rand",
+    "Code": "ZAR",
+    "Number": "710"
+  },
+  {
+    "Country": "SOUTH AFRICA",
+    "Currency": "Rand",
+    "Code": "ZAR",
+    "Number": "710"
+  },
+  {
+    "Country": "OMAN",
+    "Currency": "Rial Omani",
+    "Code": "OMR",
+    "Number": "512"
+  },
+  {
+    "Country": "CAMBODIA",
+    "Currency": "Riel",
+    "Code": "KHR",
+    "Number": "116"
+  },
+  {
+    "Country": "ROMANIA",
+    "Currency": "Romanian Leu",
+    "Code": "RON",
+    "Number": "946"
+  },
+  {
+    "Country": "MALDIVES",
+    "Currency": "Rufiyaa",
+    "Code": "MVR",
+    "Number": "462"
+  },
+  {
+    "Country": "INDONESIA",
+    "Currency": "Rupiah",
+    "Code": "IDR",
+    "Number": "360"
+  },
+  {
+    "Country": "RUSSIAN FEDERATION (THE)",
+    "Currency": "Russian Ruble",
+    "Code": "RUB",
+    "Number": "643"
+  },
+  {
+    "Country": "RWANDA",
+    "Currency": "Rwanda Franc",
+    "Code": "RWF",
+    "Number": "646"
+  },
+  {
+    "Country": "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA",
+    "Currency": "Saint Helena Pound",
+    "Code": "SHP",
+    "Number": "654"
+  },
+  {
+    "Country": "SAUDI ARABIA",
+    "Currency": "Saudi Riyal",
+    "Code": "SAR",
+    "Number": "682"
+  },
+  {
+    "Country": "INTERNATIONAL MONETARY FUND (IMF) ",
+    "Currency": "SDR (Special Drawing Right)",
+    "Code": "XDR",
+    "Number": "960"
+  },
+  {
+    "Country": "SERBIA",
+    "Currency": "Serbian Dinar",
+    "Code": "RSD",
+    "Number": "941"
+  },
+  {
+    "Country": "SEYCHELLES",
+    "Currency": "Seychelles Rupee",
+    "Code": "SCR",
+    "Number": "690"
+  },
+  {
+    "Country": "SINGAPORE",
+    "Currency": "Singapore Dollar",
+    "Code": "SGD",
+    "Number": "702"
+  },
+  {
+    "Country": "SOLOMON ISLANDS",
+    "Currency": "Solomon Islands Dollar",
+    "Code": "SBD",
+    "Number": "90"
+  },
+  {
+    "Country": "KYRGYZSTAN",
+    "Currency": "Som",
+    "Code": "KGS",
+    "Number": "417"
+  },
+  {
+    "Country": "SOMALIA",
+    "Currency": "Somali Shilling",
+    "Code": "SOS",
+    "Number": "706"
+  },
+  {
+    "Country": "TAJIKISTAN",
+    "Currency": "Somoni",
+    "Code": "TJS",
+    "Number": "972"
+  },
+  {
+    "Country": "SOUTH SUDAN",
+    "Currency": "South Sudanese Pound",
+    "Code": "SSP",
+    "Number": "728"
+  },
+  {
+    "Country": "SRI LANKA",
+    "Currency": "Sri Lanka Rupee",
+    "Code": "LKR",
+    "Number": "144"
+  },
+  {
+    "Country": "SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS \"SUCRE\"",
+    "Currency": "Sucre",
+    "Code": "XSU",
+    "Number": "994"
+  },
+  {
+    "Country": "SUDAN (THE)",
+    "Currency": "Sudanese Pound",
+    "Code": "SDG",
+    "Number": "938"
+  },
+  {
+    "Country": "SURINAME",
+    "Currency": "Surinam Dollar",
+    "Code": "SRD",
+    "Number": "968"
+  },
+  {
+    "Country": "SWEDEN",
+    "Currency": "Swedish Krona",
+    "Code": "SEK",
+    "Number": "752"
+  },
+  {
+    "Country": "LIECHTENSTEIN",
+    "Currency": "Swiss Franc",
+    "Code": "CHF",
+    "Number": "756"
+  },
+  {
+    "Country": "SWITZERLAND",
+    "Currency": "Swiss Franc",
+    "Code": "CHF",
+    "Number": "756"
+  },
+  {
+    "Country": "SYRIAN ARAB REPUBLIC",
+    "Currency": "Syrian Pound",
+    "Code": "SYP",
+    "Number": "760"
+  },
+  {
+    "Country": "BANGLADESH",
+    "Currency": "Taka",
+    "Code": "BDT",
+    "Number": "50"
+  },
+  {
+    "Country": "SAMOA",
+    "Currency": "Tala",
+    "Code": "WST",
+    "Number": "882"
+  },
+  {
+    "Country": "TANZANIA, UNITED REPUBLIC OF",
+    "Currency": "Tanzanian Shilling",
+    "Code": "TZS",
+    "Number": "834"
+  },
+  {
+    "Country": "KAZAKHSTAN",
+    "Currency": "Tenge",
+    "Code": "KZT",
+    "Number": "398"
+  },
+  {
+    "Country": "TRINIDAD AND TOBAGO",
+    "Currency": "Trinidad and Tobago Dollar",
+    "Code": "TTD",
+    "Number": "780"
+  },
+  {
+    "Country": "MONGOLIA",
+    "Currency": "Tugrik",
+    "Code": "MNT",
+    "Number": "496"
+  },
+  {
+    "Country": "TUNISIA",
+    "Currency": "Tunisian Dinar",
+    "Code": "TND",
+    "Number": "788"
+  },
+  {
+    "Country": "TURKEY",
+    "Currency": "Turkish Lira",
+    "Code": "TRY",
+    "Number": "949"
+  },
+  {
+    "Country": "TURKMENISTAN",
+    "Currency": "Turkmenistan New Manat",
+    "Code": "TMT",
+    "Number": "934"
+  },
+  {
+    "Country": "UNITED ARAB EMIRATES (THE)",
+    "Currency": "UAE Dirham",
+    "Code": "AED",
+    "Number": "784"
+  },
+  {
+    "Country": "UGANDA",
+    "Currency": "Uganda Shilling",
+    "Code": "UGX",
+    "Number": "800"
+  },
+  {
+    "Country": "CHILE",
+    "Currency": "Unidad de Fomento",
+    "Code": "CLF",
+    "Number": "990"
+  },
+  {
+    "Country": "COLOMBIA",
+    "Currency": "Unidad de Valor Real",
+    "Code": "COU",
+    "Number": "970"
+  },
+  {
+    "Country": "URUGUAY",
+    "Currency": "Uruguay Peso en Unidades Indexadas (URUIURUI)",
+    "Code": "UYI",
+    "Number": "940"
+  },
+  {
+    "Country": "AMERICAN SAMOA",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "BONAIRE, SINT EUSTATIUS AND SABA",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "BRITISH INDIAN OCEAN TERRITORY (THE)",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "ECUADOR",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "EL SALVADOR",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "GUAM",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "HAITI",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "MARSHALL ISLANDS (THE)",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "MICRONESIA (FEDERATED STATES OF)",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "NORTHERN MARIANA ISLANDS (THE)",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "PALAU",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "PANAMA",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "PUERTO RICO",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "TIMOR-LESTE",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "TURKS AND CAICOS ISLANDS (THE)",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "UNITED STATES MINOR OUTLYING ISLANDS (THE)",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "UNITED STATES OF AMERICA (THE)",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "VIRGIN ISLANDS (BRITISH)",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "VIRGIN ISLANDS (U.S.)",
+    "Currency": "US Dollar",
+    "Code": "USD",
+    "Number": "840"
+  },
+  {
+    "Country": "UNITED STATES OF AMERICA (THE)",
+    "Currency": "US Dollar (Next day)",
+    "Code": "USN",
+    "Number": "997"
+  },
+  {
+    "Country": "UZBEKISTAN",
+    "Currency": "Uzbekistan Sum",
+    "Code": "UZS",
+    "Number": "860"
+  },
+  {
+    "Country": "VANUATU",
+    "Currency": "Vatu",
+    "Code": "VUV",
+    "Number": "548"
+  },
+  {
+    "Country": "SWITZERLAND",
+    "Currency": "WIR Euro",
+    "Code": "CHE",
+    "Number": "947"
+  },
+  {
+    "Country": "SWITZERLAND",
+    "Currency": "WIR Franc",
+    "Code": "CHW",
+    "Number": "948"
+  },
+  {
+    "Country": "KOREA (THE REPUBLIC OF)",
+    "Currency": "Won",
+    "Code": "KRW",
+    "Number": "410"
+  },
+  {
+    "Country": "YEMEN",
+    "Currency": "Yemeni Rial",
+    "Code": "YER",
+    "Number": "886"
+  },
+  {
+    "Country": "JAPAN",
+    "Currency": "Yen",
+    "Code": "JPY",
+    "Number": "392"
+  },
+  {
+    "Country": "CHINA",
+    "Currency": "Yuan Renminbi",
+    "Code": "CNY",
+    "Number": "156"
+  },
+  {
+    "Country": "ZAMBIA",
+    "Currency": "Zambian Kwacha",
+    "Code": "ZMW",
+    "Number": "967"
+  },
+  {
+    "Country": "ZIMBABWE",
+    "Currency": "Zimbabwe Dollar",
+    "Code": "ZWL",
+    "Number": "932"
+  },
+  {
+    "Country": "POLAND",
+    "Currency": "Zloty",
+    "Code": "PLN",
+    "Number": "985"
+  },
+  {
+    "Country": "",
+    "Currency": "",
+    "Code": "",
+    "Number": ""
+  },
+  {
+    "Country": "",
+    "Currency": "",
+    "Code": "",
+    "Number": ""
+  },
+  {
+    "Country": "",
+    "Currency": "",
+    "Code": "",
+    "Number": ""
+  },
+  {
+    "Country": "",
+    "Currency": "",
+    "Code": "",
+    "Number": ""
+  },
+  {
+    "Country": "",
+    "Currency": "",
+    "Code": "",
+    "Number": ""
+  },
+  {
+    "Country": "",
+    "Currency": "",
+    "Code": "",
+    "Number": ""
+  },
+  {
+    "Country": "",
+    "Currency": "",
+    "Code": "",
+    "Number": ""
+  },
+  {
+    "Country": "",
+    "Currency": "",
+    "Code": "",
+    "Number": ""
+  }
+]

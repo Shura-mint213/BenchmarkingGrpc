@@ -1,10 +1,12 @@
-﻿using ProcessingServer.Shared.Statics;
+﻿using ProcessingServer.Interfaces;
+using ProcessingServer.Services;
+using ProcessingServer.Shared.Statics;
 
 namespace ProcessingServer.Extensions
 {
     public static class ExpansionOfServices
     {
-        public static void ConfigureHttpClientServices(this IServiceCollection services)
+        public static void AddConfigureHttpClientServices(this IServiceCollection services)
         {
             if (SettingsHttpClients.DataServerUrl is null)
                 throw new ArgumentNullException(nameof(SettingsHttpClients.DataServerUrl));
@@ -31,8 +33,9 @@ namespace ProcessingServer.Extensions
             //});
         }
 
-        public static void ConfigureServices(this IServiceCollection services)
+        public static void AddConfigureServices(this IServiceCollection services)
         {
+            services.AddTransient<IUrlRequestsService, UrlRequestsService>();
         }
     }
 }

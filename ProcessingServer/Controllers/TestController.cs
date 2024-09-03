@@ -1,7 +1,6 @@
 ﻿using Grpc.Net.Client;
 using GrpcTesting;
 using GrpcTesting.Converters;
-using GrpcTestingClient;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Northwind.EntityModels;

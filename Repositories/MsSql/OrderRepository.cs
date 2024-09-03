@@ -1,18 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Northwind.EntityModels;
-using Repositories.Interfaces;
+using Repositories.MsSql.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repositories
+namespace Repositories.MsSql
 {
     public class OrderRepository : IOrderRepository
     {
         private readonly NorthwindContext _db;
-        public OrderRepository(NorthwindContext db) 
+        public OrderRepository(NorthwindContext db)
         {
             _db = db;
         }

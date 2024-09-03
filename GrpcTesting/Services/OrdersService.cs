@@ -5,7 +5,7 @@ using GrpcTesting.Converters;
 using Northwind.EntityModels;
 
 //using Northwind.EntityModels;
-using Repositories.Interfaces;
+using Repositories.MsSql.Interfaces;
 
 namespace GrpcTesting.Services
 {
