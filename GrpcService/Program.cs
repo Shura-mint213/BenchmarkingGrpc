@@ -1,6 +1,6 @@
-using GrpcTesting.Services;
+using Dictionary.MSSQLContext;
+using GrpcService.Services;
 using Microsoft.EntityFrameworkCore;
-using Northwind.DataContext;
 using Repositories.MSSQL.Extensions;
 using Shared.Models;
 using Shared.Statics;
@@ -11,31 +11,32 @@ LoadingSettings(builder.Configuration);
 
 builder.Services.AddGrpc();
 
-//string? connectionString = DatabaseSettings.ConnectionString ??
-//    builder.Configuration.GetConnectionString("NorthwindConnection");
-
-
 //builder.Services.Configure<MongoSettings>(options =>
 //{
 //    options.ConnectionString = builder.Configuration.GetSection("MongoConnection:ConnectionString")?.Value ??
 //        throw new ArgumentNullException("ConnectionString");
-//    options.Database = builder.Configuration.GetSection("MongoConnection:Database")?.Value ??
+//    options.Database = builder.Configuration.GetValue("Database")?.Value ??
 //        throw new ArgumentNullException("Database"); ;
 //});
 
 //if (connectionString is null)
 //    throw new InvalidOperationException("Connection string not found.");
 
-builder.Services.AddNorthwindContext(DatabaseSettings.ConnectionStringMSSQL);
+builder.Services.AddDictionaryContext(DatabaseSettings.ConnectionStringMSSQL);
 builder.Services.AddRepositoriesMSSQL();
+
+
+// Add services to the container.
+builder.Services.AddGrpc();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.MapGrpcService<OrdersService>();
-app.MapGet("/", () => "Не удалось найти конечную точку, к которой шел запрос; возможно, она не была зарегистрирована на gRPC сервере.");
+app.MapGrpcService<CountryService>();
+app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
 
 app.Run();
+
 void LoadingSettings(IConfiguration conf)
 {
     DatabaseSettings.ConnectionStringMSSQL =

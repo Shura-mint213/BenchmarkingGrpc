@@ -1,19 +1,19 @@
-﻿using Microsoft.Extensions.Options;
-using Microsoft.VisualBasic.FileIO;
+﻿using Dictionary.Models.MongoDB;
+using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using MongoModels;
 using Shared.Models;
+using Shared.Statics;
 
-namespace MongoContext
+namespace Dictionary.MongoDBContext
 {
     public class DictionaryContext
     {
         private readonly IMongoDatabase _database = null;
         public DictionaryContext(IOptions<MongoSettings> settings)
         {
-            var client = new MongoClient(settings.Value.ConnectionString);
+            var client = new MongoClient(DatabaseSettings.ConnectionStringMongoDB);
             if (client != null)
-                _database = client.GetDatabase(settings.Value.Database);
+                _database = client.GetDatabase(DatabaseSettings.Database);
         }
 
         public IMongoCollection<Currency> Currencies

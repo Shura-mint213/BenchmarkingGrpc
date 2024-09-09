@@ -1,14 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Repositories.MsSql.Interfaces;
-using Repositories.MsSql;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Repositories.Mongo.Interfaces;
+using Repositories.MongoDB.Interfaces;
 
-namespace Repositories.Mongo.Extensions
+namespace Repositories.MongoDB.Extensions
 {
     public static class ServiceProviderExtensions
     {

@@ -12,8 +12,16 @@ namespace Shared.Statics
     public static class DatabaseSettings
     {
         /// <summary>
-        /// Строка подключения к БД
+        /// Строка подключения к БД MSSQL
         /// </summary>
-        public static string? ConnectionString { get; set; }
+        public static string? ConnectionStringMSSQL { get; set; }
+        /// <summary>
+        /// Строка подключения к БД MongoDB
+        /// </summary>
+        public static string? ConnectionStringMongoDB { get; set; }
+        /// <summary>
+        /// Название базы данных
+        /// </summary>
+        public static string? Database { get; set; }
     }
 }

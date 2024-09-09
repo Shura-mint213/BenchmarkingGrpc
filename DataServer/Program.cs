@@ -1,37 +1,39 @@
 using Shared.Statics;
-using Northwind.DataContext;
+using Dictionary.MSSQLContext;
 using Microsoft.Extensions.Configuration;
 using Shared.Models;
-using Repositories.MsSql.Extensions;
-using Repositories.Mongo.Extensions;
+using Repositories.MSSQL.Extensions;
+using Repositories.MongoDB.Extensions;
+using MongoDB.Driver.Core.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
+LoadingSettings(builder.Configuration);
 // Add services to the container.
 
-string? connectionString = DatabaseSettings.ConnectionString ??
-    builder.Configuration.GetConnectionString("NorthwindConnection");
 
 builder.Services.Configure<MongoSettings>(options =>
 {
-    options.ConnectionString = builder.Configuration.GetSection("MongoConnection:ConnectionString")?.Value ??
-        throw new ArgumentNullException("ConnectionString");
-    options.Database = builder.Configuration.GetSection("MongoConnection:Database")?.Value ??
+    options.ConnectionString = DatabaseSettings.ConnectionStringMongoDB ??
+        throw new ArgumentNullException("DictionaryConnectionMongoDB");
+    options.Database = DatabaseSettings.Database ??
         throw new ArgumentNullException("Database"); ;
 });
 
-if (connectionString is null)
-    throw new InvalidOperationException("Connection string not found.");
 
-builder.Services.AddNorthwindContext(connectionString);
-builder.Services.AddRepositoriesMsSql();
+builder.Services.AddDictionaryContext(DatabaseSettings.ConnectionStringMSSQL!);
+builder.Services.AddRepositoriesMSSQL();
 builder.Services.AddRepositoriesMongo();
 
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGen(options => {
+    // Фикс ошики "Невозможно использовать schemaId. Тот же schemaId уже используется для типа"
+    options.CustomSchemaIds(type => type.ToString());
+});
 
 var app = builder.Build();
 
@@ -49,3 +51,16 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+void LoadingSettings(IConfiguration conf)
+{
+    DatabaseSettings.ConnectionStringMSSQL = 
+        builder.Configuration.GetConnectionString("DictionaryConnectionMSSQL") ??
+        throw new ArgumentNullException("DictionaryConnectionMSSQL");
+    DatabaseSettings.ConnectionStringMongoDB =
+        builder.Configuration.GetConnectionString("DictionaryConnectionMongoDB") ??
+        throw new ArgumentNullException("DictionaryConnectionMongoDB");
+    DatabaseSettings.Database =
+        builder.Configuration["Database"] ??
+        throw new ArgumentNullException("Database");
+}

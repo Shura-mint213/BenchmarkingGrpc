@@ -3,27 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcTesting", "GrpcTesting\GrpcTesting.csproj", "{30B4D253-5264-4AF0-A5E2-14E1EBE60314}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcTesting", "GrpcTesting\GrpcTesting.csproj", "{30B4D253-5264-4AF0-A5E2-14E1EBE60314}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingServer", "ProcessingServer\ProcessingServer.csproj", "{5AA6128B-871C-433D-904D-60747E637440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessingServer", "ProcessingServer\ProcessingServer.csproj", "{5AA6128B-871C-433D-904D-60747E637440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.DataContext", "Northwind.DataContext\Northwind.DataContext.csproj", "{EFC8912A-F219-4131-BAA0-757F691473FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.DataContext", "Northwind.DataContext\Northwind.DataContext.csproj", "{EFC8912A-F219-4131-BAA0-757F691473FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.EntityModels", "Northwind.EntityModels\Northwind.EntityModels.csproj", "{98E1F4A4-96A6-4FA4-ABDF-74849F26F9FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.EntityModels", "Northwind.EntityModels\Northwind.EntityModels.csproj", "{98E1F4A4-96A6-4FA4-ABDF-74849F26F9FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{9FE2DE9E-23BC-4737-80A4-74D945F1131F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{9FE2DE9E-23BC-4737-80A4-74D945F1131F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{E2C73B97-77A3-431E-80EC-A110A30AF088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{E2C73B97-77A3-431E-80EC-A110A30AF088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServer", "DataServer\DataServer.csproj", "{E6A136E7-5FCB-4DF7-9507-ACB53D87A6D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataServer", "DataServer\DataServer.csproj", "{E6A136E7-5FCB-4DF7-9507-ACB53D87A6D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{26B9DCB7-4E83-45B4-AAFE-74560EC5CCC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{26B9DCB7-4E83-45B4-AAFE-74560EC5CCC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{430CBA2F-BAB2-4075-967B-8BB08286DE64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{430CBA2F-BAB2-4075-967B-8BB08286DE64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoModels", "MongoModels\MongoModels.csproj", "{28CE293C-3173-47A5-94D5-75C1BC698CE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoModels", "MongoModels\MongoModels.csproj", "{28CE293C-3173-47A5-94D5-75C1BC698CE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoContext", "MongoContext\MongoContext.csproj", "{AA951AED-E21F-4850-BA37-62D69DE78C39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary.Models", "Dictionary.Models\Dictionary.Models.csproj", "{333A93CD-3BE8-48A8-97F6-CB1EFE2F8CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary.MongoDBContext", "Dictionary.MongoDBContext\Dictionary.MongoDBContext.csproj", "{21E5C518-53D5-4C3C-8505-8D52B150FE05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary.MSSQLContext", "Dictionary.MSSQLContext\Dictionary.MSSQLContext.csproj", "{ABE413E5-436A-4F7A-BB04-8C2697F79145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService", "GrpcService\GrpcService.csproj", "{079B111E-E1D2-47A5-98F8-C427880CB6C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,10 +77,22 @@ Global
 		{28CE293C-3173-47A5-94D5-75C1BC698CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28CE293C-3173-47A5-94D5-75C1BC698CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28CE293C-3173-47A5-94D5-75C1BC698CE8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA951AED-E21F-4850-BA37-62D69DE78C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA951AED-E21F-4850-BA37-62D69DE78C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA951AED-E21F-4850-BA37-62D69DE78C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA951AED-E21F-4850-BA37-62D69DE78C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333A93CD-3BE8-48A8-97F6-CB1EFE2F8CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333A93CD-3BE8-48A8-97F6-CB1EFE2F8CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333A93CD-3BE8-48A8-97F6-CB1EFE2F8CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333A93CD-3BE8-48A8-97F6-CB1EFE2F8CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E5C518-53D5-4C3C-8505-8D52B150FE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E5C518-53D5-4C3C-8505-8D52B150FE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E5C518-53D5-4C3C-8505-8D52B150FE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E5C518-53D5-4C3C-8505-8D52B150FE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE413E5-436A-4F7A-BB04-8C2697F79145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE413E5-436A-4F7A-BB04-8C2697F79145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE413E5-436A-4F7A-BB04-8C2697F79145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE413E5-436A-4F7A-BB04-8C2697F79145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079B111E-E1D2-47A5-98F8-C427880CB6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079B111E-E1D2-47A5-98F8-C427880CB6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079B111E-E1D2-47A5-98F8-C427880CB6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079B111E-E1D2-47A5-98F8-C427880CB6C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

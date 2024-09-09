@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace MongoModels
+namespace Dictionary.Models.MongoDB
 {
     /// <summary>
     /// Валюты ISO 
@@ -29,5 +29,5 @@ namespace MongoModels
         /// Номер
         /// </summary>
         public string Number { get; set; } = string.Empty;
-}
+    }
 }

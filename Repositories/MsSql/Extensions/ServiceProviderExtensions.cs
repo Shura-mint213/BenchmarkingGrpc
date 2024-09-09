@@ -1,18 +1,14 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Repositories.MsSql.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Repositories.MSSQL.Interfaces;
 
-namespace Repositories.MsSql.Extensions
+namespace Repositories.MSSQL.Extensions
 {
     public static class ServiceProviderExtensions
     {
-        public static void AddRepositoriesMsSql(this IServiceCollection services)
+        public static void AddRepositoriesMSSQL(this IServiceCollection services)
         {
-            services.AddTransient<IOrderRepository, OrderRepository>();
+            services.AddTransient<ICurrencyRepository, CurrencyRepository>();
+            services.AddTransient<ICountryRepository, CountryRepository>();
         }
     }
 }

@@ -7,12 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.57.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dictionary.MongoDBContext\Dictionary.MongoDBContext.csproj" />
-    <ProjectReference Include="..\Dictionary.MSSQLContext\Dictionary.MSSQLContext.csproj" />
+    <ProjectReference Include="..\Dictionary.Models\Dictionary.Models.csproj" />
     <ProjectReference Include="..\Repositories\Repositories.csproj" />
     <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
