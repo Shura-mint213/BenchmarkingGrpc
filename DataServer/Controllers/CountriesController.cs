@@ -20,21 +20,32 @@ namespace DataServer.Controllers
             _countryRepositoryMSSQL = countryRepositoryMSSQL;
         }
 
-        //[Route("GetCountriesAllMSSQL")]
+        /// <summary>
+        /// Метод получения данных стран из MSSQL
+        /// </summary>
+        /// <returns>Список Моделей данных стран</returns>
         [HttpGet("GetCountriesAllMSSQL")]
         public async Task<IEnumerable<Dictionary.Models.MSSQL.Country>> GetCountriesAllMsSqlAsync()
         {
             return await _countryRepositoryMSSQL.GetAsync();
         }
 
-        //[Route("GetCountriesAllMongoDB")]
+        /// <summary>
+        /// Метод получения данных стран из MongoDB
+        /// </summary>
+        /// <returns>Список моделей данных стран</returns>
         [HttpGet("GetCountriesAllMongoDB")]
         public async Task<IEnumerable<Dictionary.Models.MongoDB.Country>> GetCountriesAllMongoDbAsync()
         {
             return await _countryRepositoryMongoDb.GetAsync();
         }
 
-        //[Route("GetCountriesMSSQL/{skip:int}/{take:int}")]
+        /// <summary>
+        /// Метод получения данных стран из MSSQL с использованием пагинации.
+        /// </summary>
+        /// <param name="skip">Количество элементов, которые нужно пропустить.</param>
+        /// <param name="take">Количество элементов, которые нужно взять.</param>
+        /// <returns>Список моделей данных стран.</returns>
         [HttpGet("GetCountriesMSSQL/{skip:int}/{take:int}")]
         public async Task<IEnumerable<Dictionary.Models.MSSQL.Country>> GetCountriesMsSqlAsync(int skip,
             int take)
@@ -42,7 +53,12 @@ namespace DataServer.Controllers
             return await _countryRepositoryMSSQL.GetAsync(skip, take);
         }
 
-        //[Route("GetCountriesMongoDB{skip:int}/{take:int}")]
+        /// <summary>
+        /// Метод получения данных стран из MongoDB с использованием пагинации.
+        /// </summary>
+        /// <param name="skip">Количество элементов, которые нужно пропустить.</param>
+        /// <param name="take">Количество элементов, которые нужно взять.</param>
+        /// <returns>Список моделей данных стран.</returns>
         [HttpGet("GetCountriesMongoDB{skip:int}/{take:int}")]
         public async Task<IEnumerable<Dictionary.Models.MongoDB.Country>> GetCountriesMongoDbAsync(int skip,
             int take)

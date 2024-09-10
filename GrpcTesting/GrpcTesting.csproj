@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="country.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\countries.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\orders.proto" GrpcServices="Server" />
   </ItemGroup>
 

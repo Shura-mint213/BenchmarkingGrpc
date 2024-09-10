@@ -31,7 +31,7 @@ namespace Dictionary.Models.MongoDB
         /// <summary>
         /// ISO код
         /// </summary>
-        public string ISO { get; set; } = string.Empty;
+        public double? ISO { get; set; }
         /// <summary>
         /// Часть света
         /// </summary>

@@ -1,0 +1,9 @@
+db.Countries.find().forEach(function(data) {
+  db.Countries.updateOne({
+  	"_id": data._id
+  }, { 
+    $set: { 
+    	"ISO": parseInt(data.ISO) 
+  	} 
+  });
+})

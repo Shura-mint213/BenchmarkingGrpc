@@ -2,7 +2,7 @@
 
 namespace GrpcTesting.Services
 {
-    //public class CountriesService : Countries
-    //{
-    //}
+    public class CountriesService 
+    {
+    }
 }
